@@ -7,7 +7,7 @@ import BoxFour from "./BoxFour";
 import BoxFive from "./BoxFive";
 import BoxSix from "./BoxSix";
 import BoxSeven from "./BoxSeven";
-import BoxEight from "./boxEight";
+import BoxEight from "./BoxEight";
 import BoxNine from "./BoxNine";
 import BoxTen from "./BoxTen";
 
