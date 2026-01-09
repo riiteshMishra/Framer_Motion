@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* core concept theme */
+@theme {
+  --color-primary-color: #7681b3;
+  --color-secondary-color: #83c9f4;
+
+  /* Gray / Neutral */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-300: #d1d5db;
+  --color-gray-500: #6b7280;
+  --color-gray-700: #374151;
+  --color-gray-900: #111827;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  color: white;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
