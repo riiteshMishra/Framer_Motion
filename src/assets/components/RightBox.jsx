@@ -13,6 +13,7 @@ import BoxTen from "./BoxTen";
 import BoxEleven from "./Indermediate/BoxEleven";
 import BoxTwelve from "./Indermediate/BoxTwelve";
 import BoxThirteen from "./Indermediate/BoxThirteen";
+import BoxFourteen from "./Indermediate/BoxFourteen";
 
 const RightBox = ({ activeBox }) => {
   return (
@@ -189,6 +190,18 @@ const RightBox = ({ activeBox }) => {
               className="absolute inset-0"
             >
               <BoxThirteen />
+            </motion.div>
+          )}
+          {activeBox === 14 && (
+            <motion.div
+              key={"box14"}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="absolute inset-0"
+            >
+              <BoxFourteen />
             </motion.div>
           )}
         </AnimatePresence>
