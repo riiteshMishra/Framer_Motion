@@ -83,3 +83,87 @@ export const details = [
     text: "Create a modal animation using scale and opacity with AnimatePresence",
   },
 ];
+
+// advance qn
+export const advancedDetails = [
+  {
+    id: 1,
+    text: "Create a page transition animation using variants and AnimatePresence",
+  },
+  {
+    id: 2,
+    text: "Create a scroll progress bar using useScroll and useTransform",
+  },
+  {
+    id: 3,
+    text: "Create a parallax effect using scroll-linked animations",
+  },
+  {
+    id: 4,
+    text: "Animate elements differently based on scroll direction",
+  },
+  {
+    id: 5,
+    text: "Create an animated navbar that hides on scroll down and shows on scroll up",
+  },
+  {
+    id: 6,
+    text: "Create an accordion with smooth height animation",
+  },
+  {
+    id: 7,
+    text: "Create a draggable card with snap-back using dragElastic",
+  },
+  {
+    id: 8,
+    text: "Create a swipe-to-dismiss card animation",
+  },
+  {
+    id: 9,
+    text: "Create a toast notification system with enter and exit animations",
+  },
+  {
+    id: 10,
+    text: "Create a skeleton loader using shimmer animation",
+  },
+  {
+    id: 11,
+    text: "Create an animated sidebar that slides in and out",
+  },
+  {
+    id: 12,
+    text: "Create an image gallery with shared layout (layoutId)",
+  },
+  {
+    id: 13,
+    text: "Create a tab switch animation using layout animations",
+  },
+  {
+    id: 14,
+    text: "Create a complex stagger animation using variants and custom delays",
+  },
+  {
+    id: 15,
+    text: "Create a timeline animation using async/await animation controls",
+  },
+  {
+    id: 16,
+    text: "Create a button with loading, success, and error animation states",
+  },
+  {
+    id: 17,
+    text: "Animate SVG path drawing using strokeDasharray",
+  },
+  {
+    id: 18,
+    text: "Create a floating action button with multi-step animation",
+  },
+  {
+    id: 19,
+    text: "Create a scroll-triggered counter animation",
+  },
+  {
+    id: 20,
+    text: "Create a page with reduced-motion support (accessibility)",
+  },
+];
